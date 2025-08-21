@@ -1,8 +1,10 @@
 # Next.js + Jest
 
-This example shows how to configure Jest to work with Next.js.
+The source is written by someone else . Thanks to them.
+This artifact says that how to atomate automate the build, test , deploymant tasks using github actions
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+Being a devops practioner your task is to automate the build, test , deploymant tasks using github actions.
+This example shows how to configure Build, Test, Create docker image & push that to your personal dockerhub
 
 > **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
 
@@ -12,24 +14,7 @@ This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScri
 
 ## How to Use
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+Have your Github repo, dockerhub logins ready & follow the .github/workflows configuration files.
 
-In your terminal, run the following command:
+Thanks !
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
