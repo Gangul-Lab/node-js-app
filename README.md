@@ -1,7 +1,7 @@
 # Next.js + Jest
 
 The source is written by someone else . Thanks to them.
-This artifact says that how to atomate automate the build, test , deploymant tasks using github actions
+This artifact says that how to atomate the build, test , deploymant tasks using github actions
 
 Being a devops practioner your task is to automate the build, test , deploymant tasks using github actions.
 This example shows how to configure Build, Test, Create docker image & push that to your personal dockerhub
@@ -17,4 +17,5 @@ This example shows how to configure Build, Test, Create docker image & push that
 Have your Github repo, dockerhub logins ready & follow the .github/workflows configuration files.
 
 Thanks !
+
 
